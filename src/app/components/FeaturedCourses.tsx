@@ -20,8 +20,8 @@ function FeaturedCourses() {
   return (
     <div className="py-12 bg-gray-900">
       <div className="text-center">
-        <h2>Featured Courses</h2>
-        <p>Learn with the best</p>
+        <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">Featured Courses</h2>
+        <p  className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Learn with the best</p>
       </div>
       <div className="mt-10">
         <div className="grid grid-col-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center ">
